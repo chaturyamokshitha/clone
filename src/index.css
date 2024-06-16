@@ -169,7 +169,19 @@ body {
     padding: 1.25rem;
     color: white;
 }
+.recent-entry {
+    display: flex;
+    align-items: center;
+}
 
+.recent-entry img {
+    margin-right: 10px;
+}
+
+.upperSideBottom {
+    display: flex;
+    flex-direction: column;
+}
 .inp>input,
 .send {
     background: transparent;
